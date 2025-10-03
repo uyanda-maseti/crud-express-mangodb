@@ -11,5 +11,5 @@ app.get('/', function (req, res) {
     res.sendFile('/workspaces/crud-express-mangodb' + '/index.html')
 })
 app.post('/quotes', (req, res) => {
-    console.log('Hellooooooo!')
+    console.log(req.body)
 })
